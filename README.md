@@ -6,7 +6,8 @@
 [![Keras](https://img.shields.io/badge/Framework-Keras-red?logo=keras)](https://keras.io/)
 [![GPU](https://img.shields.io/badge/GPU-Tesla%20P100--PCIE--16GB-green?logo=nvidia)](https://www.nvidia.com/)
 [![Dataset](https://img.shields.io/badge/Dataset-SpaceNet-orange)](https://spacenet.ai/)
-[![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/UI-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://devxrachit-unet-segmentation-app-9xobfy.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-online-brightgreen)](https://devxrachit-unet-segmentation-app-9xobfy.streamlit.app/)
 
 ---
 
@@ -144,6 +145,10 @@ Outputs:
 - `map.tif` — colorized segmentation map
 
 ### 6. Launch the interactive UI
+
+**Live demo:** https://devxrachit-unet-segmentation-app-9xobfy.streamlit.app/
+
+Or run locally:
 
 ```bash
 streamlit run app.py
