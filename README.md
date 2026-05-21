@@ -71,6 +71,18 @@ The Deep UNet employs a symmetric encoder-decoder design with skip connections t
 
 ---
 
+## 🖥️ Interactive UI
+
+A Streamlit dashboard lets you explore training data, visualise predictions, and inspect the model — no code required.
+
+**Dashboard** — training loss curves, class weights, spectral band reference
+![Dashboard](screenshots/dashboard.png)
+
+**Data Explorer** — browse all 24 scenes with false-colour, single-band, and mask views; per-scene class coverage chart
+![Data Explorer](screenshots/data_explorer.png)
+
+---
+
 ## 🚀 Setup & Usage
 
 ### 1. Clone the repository
